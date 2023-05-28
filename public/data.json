@@ -1,0 +1,45 @@
+{
+	"workProjects": [
+		{
+			"title": "Website Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		},
+		{
+			"title": "Website Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		},
+		{
+			"title": "Website Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		}
+	],
+	"myProjects": [
+		{
+			"title": "Project Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"git": "github.com",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		},
+		{
+			"title": "Project Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"git": "github.com",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		},
+		{
+			"title": "Project Title",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"git": "github.com",
+			"live": "google.com",
+			"img": "portfolioBackground.webp"
+		}
+	]
+}
