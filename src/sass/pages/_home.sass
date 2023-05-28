@@ -1,0 +1,54 @@
+.home_background
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-image: url('/img/portfolioBackground.webp')
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    display: flex
+    justify-content: center
+    align-items: center
+.home_card
+    position: relative
+    display: inline-flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 60px 100px
+    border-radius: 15px
+    background: rgba(0,0,0,.6)
+    backdrop-filter: blur(1rem)
+    border: 1px solid rgba(255,255,255 ,0.8 )
+    h1,h3
+        position: relative
+        color: white
+        margin-bottom: 10px
+        margin-top: 10px
+    h1
+        margin-bottom: 0
+    &__socials
+        i
+            font-size: 25px
+            color: white
+            margin: 10px
+    &__links
+        display: flex
+        a
+            margin: 10px
+            color: white
+            text-decoration: none
+            padding: 10px 20px
+            border: 1px solid rgba(255,255,255 ,0.8 )
+            border-radius: 5px
+            transition: ease-in-out 300ms
+            &:hover
+                background: white
+                color: black
+                transition: ease-in-out 300ms
+
+
+
+
