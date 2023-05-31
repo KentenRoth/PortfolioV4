@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Nav from '../Components/nav';
 
 const Projects = () => {
-    return (<div>Projects</div>)
-}
+	return (
+		<div className="projects">
+			<Nav page={'Projects'} />
+		</div>
+	);
+};
 
-export default Projects
+export default Projects;
