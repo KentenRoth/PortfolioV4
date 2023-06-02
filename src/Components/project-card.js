@@ -1,35 +1,19 @@
 import React from 'react';
 
 const ProjectCard = (props) => {
-	let workCard = (
-		<div className="project-card_content__links">
-			<a href={props.live} target="_blank">
-				Live
-			</a>
-		</div>
-	);
-	if (!props.github) {
-		workCard = (
-			<div className="project-card_content__links">
-				<a href={props.git} target="_blank">
-					Github
-				</a>
-				<a href={props.live} target="_blank">
-					Live
-				</a>
-			</div>
-		);
-	}
+	let links = <div></div>;
 
 	return (
-		<div className="project-card">
+		<div className={`project-card ${props.project.type}`}>
 			<div className="project-card_image">
-				<img src="/img/porfolioBackground.jpeg" />
+				<img src={`/img/${props.project.img}`} />
+			</div>
+			<div className="project-card_type">
+				<p>{props.project.type}</p>
 			</div>
 			<div className="project-card_content">
-				<p className="title">`${props.title}`</p>
-				<p className="copy">`${props.copy}`</p>
-				{workCard}
+				<h3>{props.project.title}</h3>
+				<p>{props.project.copy}</p>
 			</div>
 		</div>
 	);

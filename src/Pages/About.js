@@ -1,17 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Nav from '../Components/nav';
-import makeItRain from '../Components/rain';
 
 const About = () => {
-	useEffect(() => {
-		console.log('useEffect');
-		makeItRain();
-	}, []);
-
 	return (
 		<>
-			<div class="rain front-row"></div>
-			<div class="rain back-row"></div>
 			<div className="about">
 				<Nav page={'About'} />
 				<div className="about_content">
