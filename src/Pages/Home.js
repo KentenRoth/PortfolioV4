@@ -1,20 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Socials from '../Components/socials';
+import Hero from '../Pages/Hero';
+import Projects from './Projects';
+import About from './About';
 
 const Home = () => {
 	return (
-		<div className="home_background">
-			<div className="home_card">
-				<h1>Kenten Roth</h1>
-				<h3>Web Developer</h3>
-				<Socials />
-				<div className="home_card__links">
-					<Link to="/projects">Projects</Link>
-					<Link to="/about">About Me</Link>
-				</div>
-			</div>
-		</div>
+		<>
+			<section>
+				<Hero />
+			</section>
+			<section id="projects">
+				<Projects />
+			</section>
+			<section>
+				<About />
+			</section>
+		</>
 	);
 };
 

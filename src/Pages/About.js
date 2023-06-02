@@ -5,7 +5,6 @@ const About = () => {
 	return (
 		<>
 			<div className="about">
-				<Nav page={'About'} />
 				<div className="about_content">
 					<div className="about_content__image">
 						<img src="/img/me.jpg" />
