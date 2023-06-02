@@ -10,7 +10,7 @@ const Hero = () => {
 					<Socials />
 					<div className="hero_card__links">
 						<a href="#projects">Projects</a>
-						<a href="/about">About Me</a>
+						<a href="#about">About Me</a>
 					</div>
 				</div>
 			</div>
