@@ -1,8 +1,10 @@
 .projects
     overflow: scroll
+    margin-top: 80px
     .projects_list
+        max-width: 1600px
         display: grid
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px ), 1fr))
-        gap: 20px
-        max-width: 1400px
+        grid-template-columns: repeat(2, 1fr)
+        gap: 40px
         margin: auto
+        flex-wrap: wrap

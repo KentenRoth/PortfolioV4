@@ -1,8 +1,6 @@
 import React from 'react';
 
 const ProjectCard = (props) => {
-	let links = <div></div>;
-
 	return (
 		<div className={`project-card ${props.project.type}`}>
 			<div className="project-card_image">
