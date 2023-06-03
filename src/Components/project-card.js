@@ -12,6 +12,11 @@ const ProjectCard = (props) => {
 			<div className="project-card_content">
 				<h3>{props.project.title}</h3>
 				<p>{props.project.copy}</p>
+				<div className="project-card_content__links">
+					{props.project.links.map((x) => {
+						return <a href={Object.values(x)}>{Object.keys(x)}</a>;
+					})}
+				</div>
 			</div>
 		</div>
 	);
