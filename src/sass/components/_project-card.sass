@@ -1,16 +1,10 @@
 .project-card
     position: relative
-    flex-basis: 48%
     display: grid
     grid-template-columns: repeat(2, 1fr)
     grid-template-rows: 1fr auto
     border-radius: 10px
     overflow: hidden
-    &:hover
-        &_image
-            img
-                transition: ease-in-out 300ms
-                transform: scale(1.1)
     &_image
         grid-row: 1/1
         grid-column: 1/3
@@ -22,6 +16,11 @@
             width: 100%
             height: 100%
             object-fit: cover
+    &:hover
+        .project-card_image
+            img
+                transition: ease-in-out 300ms
+                transform: scale(1.1)
 
     &_type
         position: absolute
