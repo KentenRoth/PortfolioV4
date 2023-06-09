@@ -11,6 +11,15 @@
     display: flex
     justify-content: center
     align-items: center
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 100%
+        background: radial-gradient(circle at right, transparent 60%, $dark-gray 90%)
+
     .hero_card
         position: relative
         display: inline-flex
