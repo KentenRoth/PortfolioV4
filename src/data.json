@@ -1,7 +1,29 @@
 {
 	"projects": [
 		{
-			"title": "Website Title",
+			"title": "TireChainsRUs",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"img": "tirechains.webp",
+			"type": "Work",
+			"links": [
+				{
+					"Live Site": "https://www.tirechainsrus.com/"
+				}
+			]
+		},
+		{
+			"title": "ATV Tires",
+			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"img": "atvtires.webp",
+			"type": "Work",
+			"links": [
+				{
+					"Live Site": "https://www.atvtires.com/"
+				}
+			]
+		},
+		{
+			"title": "Theo's Roast",
 			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
 			"img": "portfolioBackground.webp",
 			"type": "Work",
@@ -12,29 +34,7 @@
 			]
 		},
 		{
-			"title": "Website Title",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
-			"type": "Work",
-			"links": [
-				{
-					"Live Site": "google.com"
-				}
-			]
-		},
-		{
-			"title": "Website Title",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
-			"type": "Work",
-			"links": [
-				{
-					"Live Site": "google.com"
-				}
-			]
-		},
-		{
-			"title": "Project Title",
+			"title": "Hubble Site",
 			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
 			"img": "portfolioBackground.webp",
 			"type": "Personal",
@@ -48,24 +48,22 @@
 			]
 		},
 		{
-			"title": "Project Title",
+			"title": "Solar System",
 			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
 			"img": "portfolioBackground.webp",
 			"type": "Personal",
 			"links": [
 				{
-					"Github Front": "github.com"
+					"Github": "github.com"
 				},
-				{
-					"Github API": "github.com"
-				},
+
 				{
 					"Live Site": "google.com"
 				}
 			]
 		},
 		{
-			"title": "Project Title",
+			"title": "Task Manager",
 			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
 			"img": "portfolioBackground.webp",
 			"type": "Personal",

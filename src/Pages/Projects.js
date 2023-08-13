@@ -8,8 +8,8 @@ const Projects = () => {
 		<>
 			<h2 class="section_title">My Projects</h2>
 			<div className="projects_list">
-				{projects.projects.map((x) => {
-					return <ProjectCard project={x} />;
+				{projects.projects.map((x, i) => {
+					return <ProjectCard project={x} index={i} />;
 				})}
 			</div>
 		</>

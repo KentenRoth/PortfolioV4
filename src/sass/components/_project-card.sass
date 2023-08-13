@@ -1,79 +1,54 @@
 .project-card
     position: relative
-    display: grid
-    grid-template-columns: repeat(2, 1fr)
-    border-radius: 10px
-    overflow: hidden
-    grid-template-rows: 200px auto
     z-index: 3
+    display: flex
+    max-width: 100%
     &_image
-        grid-row: 1/1
-        grid-column: 1/3
-        overflow: hidden
-        max-height: 200px
-        display: flex
+        max-height: 500px
+        max-width: 100%
         img
-            transition: ease-in-out 300ms
-            width: 100%
             height: 100%
+            width: 100%
             object-fit: cover
-    &:hover
-        .project-card_image
-            img
-                transition: ease-in-out 300ms
-                transform: scale(1.1)
-
-    &_type
-        position: absolute
-        top: 10px
-        left: 10px
-        color: white
-        border-radius: 5px
-        p
-            padding: 10px 20px
-            margin: 0
     &_content
-        grid-row: 2 / 4
-        grid-column: 1 / 3
+        position: absolute
+        min-height: 100px
+        max-width: 500px
+        background: #141414E6
+        backdrop-filter: blur(1rem)
         color: white
-        padding: 20px
+        z-index: 3
+        padding: 40px
+        bottom: -120px
+        h3
+            font-size: 50px
+            margin: 0
+            color: $accent-purple
+            text-align: center
+            font-weight: 700
         &__links
-            position: relative
-            bottom: 0
-            display: grid
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px ), 1fr))
-            gap: 30px
-            margin-top: 30px
+            padding-top: 30px
+            width: 100%
+            display: flex
+            gap: 40px
+            justify-content: center
+            align-items: center
+            margin: auto
             a
-                border-radius: 5px
-                display: flex
-                justify-content: center
-                align-items: center
-                padding: 10px 40px
-                border: solid 1px white
-                color: white
+                border-radius: 50px
                 text-decoration: none
-                font-size: 20px
-                transition: ease-in-out 300ms
+                padding: 10px 28px
+                border: solid 2px $accent-purple
+                color: $accent-purple
+                transition: 300ms ease-in-out
+                flex: 1
+                text-align: center
                 &:hover
-                    transition: ease-in-out 300ms
-                    color: rgb(50,50,50)
-                    background: white
-            a:nth-child(2n-1):last-of-type
-                grid-column: 1/-1
-        p
-            font-size: 20px
-.Work
-    .project-card_type
-        background: $mid-gray
-    .project-card_content
-        border-top: 0
-        border-radius: 0 0 10px 10px
-        background: $mid-gray
-.Personal
-    .project-card_type
-        background: $mid-gray
-    .project-card_content
-        border-top: 0
-        border-radius: 0 0 10px 10px
-        background: $mid-gray
+                    color: $dark-gray
+                    background: $accent-purple
+
+
+    .right
+        right: -100px
+    .left 
+        left: -100px
