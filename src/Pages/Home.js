@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../Components/nav';
 import Hero from '../Pages/Hero';
 import Projects from './Projects';
 import About from './About';
@@ -8,6 +9,7 @@ import TextBottom from '../Components/text-bottom';
 const Home = () => {
 	return (
 		<>
+			<Nav />
 			<Hero />
 			<TextTop />
 			<section className="projects" id="projects">

@@ -1,20 +1,14 @@
 import { Link } from 'react-router-dom';
 import Socials from './socials';
 
-const Nav = (props) => {
-	console.log(props.page);
-	let page = <Link to="/projects">Projects</Link>;
-
-	if (props.page === 'Projects') {
-		page = <Link to="/about">About</Link>;
-	}
-
+const Nav = () => {
 	return (
 		<div className="nav">
-			<Socials />
 			<div className="nav_links">
-				<Link to="/">Home</Link>
-				{page}
+				<a href="#projects">Projects</a>
+				<a href="#about">About Me</a>
+				<a href="#projects">GitHub</a>
+				<a href="#about">LinkedIn</a>
 			</div>
 		</div>
 	);

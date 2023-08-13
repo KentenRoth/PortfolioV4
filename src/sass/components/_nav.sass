@@ -1,31 +1,27 @@
 .nav
-    display: flex
-    flex-direction: column
-    width: 100%
-    position: relative
-    top: 0
-    left: 0
-    border-bottom: 1px solid rgba(255,255,255,0.8)
-    padding: 20px 0
-    justify-content: center
-    align-items: center
-    z-index: 3
-    background-color: rgba(0,0 ,0 ,0.6 )
+    position: fixed
+    top: 40px
+    right: 150px
+    z-index: 5
+    border: solid 2px $accent-purple
+    border-radius: 100px
+    background: #141414cc
+    backdrop-filter: blur(1rem)
     &_links
         display: flex
+        gap: 20px
+        padding: 10px
         a
-            margin: 10px
-            color: white
-            text-decoration: none
             padding: 10px 20px
-            border: 1px solid rgba(255,255,255 ,0.8 )
-            border-radius: 5px
-            transition: ease-in-out 300ms
+            border-radius: 100px
+            text-decoration: none
+            font-size: 18px
+            color: $accent-purple
+            transition: 300ms ease-in-out
             &:hover
-                background: white
-                color: black
-                transition: ease-in-out 300ms
-
+                transition: 300ms ease-in-out
+                background: $accent-purple
+                color: $dark-gray
 
 
 
