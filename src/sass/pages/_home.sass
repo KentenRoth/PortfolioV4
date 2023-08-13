@@ -1,58 +1,61 @@
-.hero_background
-    height: 100vh
-    width: 100vw
+.hero
+    max-width: 100%
     position: relative
-    top: 0
-    left: 0
-    background-image: url('/img/portfolioBackground.webp')
-    background-position: center
-    background-size: cover
-    background-repeat: no-repeat
+    background: $dark-gray
     display: flex
     justify-content: center
     align-items: center
-    &:after
+    min-height: 65vh
+    &::after
         content: ''
         position: absolute
         top: 0
         left: 0
-        height: 100%
         width: 100%
-        background: radial-gradient(circle at right, transparent 60%, $dark-gray 90%)
-
+        height: 100%
+        background-image: url('../../img/topography.svg')
+        z-index: 1
+        opacity: .15
     .hero_card
         position: relative
         display: inline-flex
         flex-direction: column
         justify-content: center
-        align-items: center
         padding: 60px 100px
-        border-radius: 15px
-        background: rgba(0,0,0,.6)
-        backdrop-filter: blur(1rem)
-        border: 1px solid rgba(255,255,255 ,0.8 )
-        h1,h3
-            position: relative
+        z-index: 2
+        .opening, .closing
             color: white
-            margin-bottom: 10px
-            margin-top: 10px
-        h1
-            margin-bottom: 0
-        &__links
+            font-size: 180px
+            margin: 0
+            position: absolute
+            -webkit-text-fill-color: transparent
+            -webkit-text-stroke-width: 2px
+            -webkit-text-stroke-color: $accent-purple
+        .opening
+            top: -50px
+            left: -100px
+        .closing
+            bottom: -28px
+            right: -100px
+        .hero_eyebrow
+            font-size: 40px
+            color: $accent-purple
+            font-weight: 800
+            margin: 0
+            line-height: 1.2
+            padding-bottom: 10px
+        .name
             display: flex
-            a
-                margin: 10px
+            margin-bottom: 15px
+            flex-direction: column
+            h1
+                font-size: 100px
                 color: white
-                text-decoration: none
-                padding: 10px 20px
-                border: 1px solid rgba(255,255,255 ,0.8 )
-                border-radius: 5px
-                transition: ease-in-out 300ms
-                &:hover
-                    background: white
-                    color: black
-                    transition: ease-in-out 300ms
-
+                margin: 0
+                padding: 0
+                line-height: .8
+            .hero_lastname
+                padding-left: 35px
 
 
 
