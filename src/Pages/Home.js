@@ -2,18 +2,18 @@ import React from 'react';
 import Hero from '../Pages/Hero';
 import Projects from './Projects';
 import About from './About';
-import Languages from './Languages';
-import ScrollTextTop from '../Components/scrollTextTop';
+import TextTop from '../Components/text-top';
+import TextBottom from '../Components/text-bottom';
 
 const Home = () => {
 	return (
 		<>
 			<Hero />
-			<ScrollTextTop />
+			<TextTop />
 			<section className="projects" id="projects">
 				<Projects />s
 			</section>
-			<Languages />
+			<TextBottom />
 			<section className="about" id="about">
 				<About />
 			</section>
