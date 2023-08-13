@@ -3,17 +3,17 @@ import Socials from '../Components/socials';
 const Hero = () => {
 	return (
 		<>
-			<div className="hero_background">
+			<section className="hero">
 				<div className="hero_card">
-					<h1>Kenten Roth</h1>
-					<h3>Web Developer</h3>
-					<Socials />
-					<div className="hero_card__links">
-						<a href="#projects">Projects</a>
-						<a href="#about">About Me</a>
+					<p class="opening"> {'{'} </p>
+					<p class="hero_eyebrow">Web Developer</p>
+					<div className="name">
+						<h1>Kenten</h1>
+						<h1 class="hero_lastname">Roth</h1>
 					</div>
+					<p class="closing">{'}'}</p>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };
