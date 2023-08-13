@@ -5,13 +5,14 @@ import ProjectCard from '../Components/project-card';
 
 const Projects = () => {
 	return (
-		<div className="projects">
+		<>
+			<h2 class="section_title">My Projects</h2>
 			<div className="projects_list">
 				{projects.projects.map((x) => {
 					return <ProjectCard project={x} />;
 				})}
 			</div>
-		</div>
+		</>
 	);
 };
 

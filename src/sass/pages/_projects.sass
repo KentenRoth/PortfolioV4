@@ -1,12 +1,17 @@
-.section--projects
-    .projects
-        overflow: scroll
-        margin-top: 80px
-        border-radius: 100px 100px 0 0
-        .projects_list
-            max-width: 1600px
-            display: grid
-            grid-template-columns: repeat(2, 1fr)
-            gap: 40px
-            margin: auto
-            flex-wrap: wrap
+.projects
+    max-width: 100%
+    position: relative
+    background: $dark-gray
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-image: url('../../img/circuit-board.svg')
+        z-index: 1
+        opacity: .15
+    &_list
+        max-width: 1400px
+        margin: auto
