@@ -1,6 +1,3 @@
-import { Link } from 'react-router-dom';
-import Socials from './socials';
-
 const Nav = () => {
 	return (
 		<div className="nav">
