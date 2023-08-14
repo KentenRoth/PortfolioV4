@@ -1,45 +1,47 @@
 import React from 'react';
-import Nav from '../Components/nav';
 
 const About = () => {
 	return (
 		<>
-			<div className="about">
-				<div className="about_content">
-					<div className="about_content__image">
-						<img src="/img/me.jpg" />
-					</div>
-					<div className="about_content__copy">
-						<p>
-							I'm Kenten Roth, a self-taught web developer with a
-							passion for creating innovative and user-friendly
-							web experiences. With expertise in React, Redux
-							Toolkit, TypeScript, and more, I specialize in
-							building dynamic web applications that captivate
-							users.
-						</p>
-						<p>
-							In my current role as a web developer, I've
-							contributed to notable projects like
-							tirechainsrus.com and atvtires.com, refining my
-							attention to detail and embracing a self-motivated
-							approach. I find fulfillment in turning concepts
-							into reality and collaborating with others to bring
-							visions to life. With a keen interest in gardening,
-							nature, golf, and cars, I thrive on projects that
-							merge my coding skills with my passion.
-						</p>
-						<p>
-							As a dedicated learner, I continuously stay updated
-							with the latest trends and advancements in web
-							development. I value teamwork and problem-solving,
-							actively seeking diverse perspectives to find
-							creative solutions. My long-term goal is to evolve
-							into a full-stack developer, expanding my skills and
-							embracing new challenges.
-						</p>
-					</div>
+			<div class="about_content">
+				<p class="opening">{'<'}</p>
+				<div class="about_content__heading">
+					<p class="eyebrow">Who Is</p>
+					<h2>Kenten</h2>
+					<h2 className="about_lastname">Roth</h2>
 				</div>
+				<div class="about_content__copy">
+					<p>
+						Hi there! I'm Kenten Roth, a seasoned Front-End
+						developer with over 5 years of experience crafting
+						immersive digital experiences. Based in Iowa, I
+						specialize in turning innovative designs into functional
+						and responsive websites using a toolkit that includes
+						React, SASS, JavaScript, NodeJS, and MongoDB. My passion
+						for blending design and technology shines through in
+						every project I undertake.
+					</p>
+					<p>
+						My expertise lies in building user-friendly interfaces,
+						collaborating effectively within cross-functional teams,
+						and delivering high-quality work on time. I take pride
+						in transforming wireframes into polished websites that
+						provide seamless user interactions. One of my standout
+						accomplishments is the creation of a Task Manager
+						application using React, Typescript, and MongoDB,
+						showcasing my ability to design intuitive interfaces and
+						foster team collaboration.
+					</p>
+					<p>
+						I thrive on tackling challenges and continuously seek
+						out opportunities to refine my skills. I bring a
+						meticulous eye for detail, problem-solving prowess, and
+						a commitment to delivering exceptional results to every
+						project. My goal is to create digital experiences that
+						not only meet but exceed expectations.
+					</p>
+				</div>
+				<p class="closing">{'/>'}</p>
 			</div>
 		</>
 	);

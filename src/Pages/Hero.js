@@ -1,5 +1,3 @@
-import Socials from '../Components/socials';
-
 const Hero = () => {
 	return (
 		<>
