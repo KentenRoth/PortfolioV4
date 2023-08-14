@@ -23,42 +23,16 @@
 			]
 		},
 		{
-			"title": "Theo's Roast",
+			"title": "Huddle Site",
 			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
-			"type": "Work",
-			"links": [
-				{
-					"Live Site": "google.com"
-				}
-			]
-		},
-		{
-			"title": "Hubble Site",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
+			"img": "huddle.webp",
 			"type": "Personal",
 			"links": [
 				{
-					"Github": "github.com"
+					"Github": "https://github.com/KentenRoth/challenge-site"
 				},
 				{
-					"Live Site": "google.com"
-				}
-			]
-		},
-		{
-			"title": "Solar System",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
-			"type": "Personal",
-			"links": [
-				{
-					"Github": "github.com"
-				},
-
-				{
-					"Live Site": "google.com"
+					"Live Site": "https://vigilant-hamilton-01427e.netlify.app/"
 				}
 			]
 		},
