@@ -1,14 +1,26 @@
-.cta
-    padding: 20px 0
-    color: $dark-gray
+#outer
+    overflow: hidden
+    position: relative
+    top: 0
+    div
+        display: inline-block
+#loop
     white-space: nowrap
-    display: flex
-    justify-content: center
-    p
-        margin: 0
-        font-size: 45px
-        font-weight: bold
+    animation: loop-anim 60s linear infinite
+    -webkit-animation: loop-anim 60s linear infinite
+#content
+    padding: 20px 0
+    font-size: 45px
+    font-weight: 700
+    color: $dark-gray
     .pipes
         -webkit-text-fill-color: transparent
         -webkit-text-stroke-width: 2px
         -webkit-text-stroke-color: $dark-gray
+
+@keyframes loop-anim
+    0%
+        margin-left: 0
+
+    100%
+        margin-left: -50%
