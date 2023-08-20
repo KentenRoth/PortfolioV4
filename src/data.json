@@ -1,13 +1,24 @@
 {
 	"projects": [
 		{
-			"title": "TireChainsRUs",
+			"title": "Tire Chains R Us",
 			"copy": "As the front-end developer for a work project, I skillfully translated a provided design into a fully functional website.  I achieved this by utilizing a custom WordPress theme in conjunction with WooCommerce. By implementing the design into the development process, I ensured a visually appealing and user-friendly interface that seamlessly guides visitors through the product offerings. ",
 			"img": "tirechains.webp",
 			"type": "Work",
 			"links": [
 				{
 					"Live Site": "https://www.tirechainsrus.com/"
+				}
+			]
+		},
+		{
+			"title": "Task Manager",
+			"copy": "Presently underway, this project stands as an ongoing endeavor, meticulously constructed utilizing a stack comprising React, Typescript, Express, Node, and MongoDB. The core essence of this initiative resides in facilitating comprehensive task management across a spectrum of projects, concurrently fostering an environment conducive to seamless collaboration by affording the functionality to incorporate associates or collaborators. Notably, project ownership bestows the privilege to allocate distinct roles to users, thereby endowing them with varying levels of access and capabilities.",
+			"img": "portfolioBackground.webp",
+			"type": "Personal",
+			"links": [
+				{
+					"Github": "https://github.com/KentenRoth/Task-ManagerV2"
 				}
 			]
 		},
@@ -24,7 +35,7 @@
 		},
 		{
 			"title": "Huddle Site",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
+			"copy": "This website materialized as a response to a compelling challenge presented within the context of a Udemy course. The initiative involved a comprehensive provision of assets, hand in hand with a meticulously curated design blueprint. The crux of this challenge lay in the faithful realization of the site in accordance with the precise specifications of the 'client', all within the constraints of a tightly delimited time frame.",
 			"img": "huddle.webp",
 			"type": "Personal",
 			"links": [
@@ -33,20 +44,6 @@
 				},
 				{
 					"Live Site": "https://vigilant-hamilton-01427e.netlify.app/"
-				}
-			]
-		},
-		{
-			"title": "Task Manager",
-			"copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida faucibus orci, vitae eleifend nisl convallis in. Sed eu elit quis eros ullamcorper elementum. Integer ipsum leo, vehicula vitae mi in, dapibus dignissim leo. Duis posuere, risus at cursus tempor, nisi tellus consequat nunc, porttitor molestie leo nisl sit amet risus. Maecenas lacus massa, rutrum egestas vulputate nec, tincidunt non erat.",
-			"img": "portfolioBackground.webp",
-			"type": "Personal",
-			"links": [
-				{
-					"Github": "github.com"
-				},
-				{
-					"Live Site": "google.com"
 				}
 			]
 		}
