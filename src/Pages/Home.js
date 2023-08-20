@@ -13,7 +13,7 @@ const Home = () => {
 			<Hero />
 			<TextTop />
 			<section className="projects" id="projects">
-				<Projects />s
+				<Projects />
 			</section>
 			<TextBottom />
 			<section className="about" id="about">

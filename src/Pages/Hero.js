@@ -6,8 +6,8 @@ const Hero = () => {
 					<p class="opening"> {'{'} </p>
 					<p class="hero_eyebrow">Web Developer</p>
 					<div className="name">
-						<h1>Kenten</h1>
-						<h1 class="hero_lastname">Roth</h1>
+						<h1 className="section_title">Kenten</h1>
+						<h1 className=" section_title hero_lastname">Roth</h1>
 					</div>
 					<p class="closing">{'}'}</p>
 				</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from '../Components/nav';
 import projects from '../data.json';
 import ProjectCard from '../Components/project-card';
 
