@@ -3,6 +3,7 @@
     position: relative
     padding-top: 183px
     padding-bottom: 200px
+    padding: 183px 80px 200px 80px
     &::after
         content: ''
         position: absolute
@@ -63,3 +64,18 @@
             color: white
             line-height: 1.5
             font-size: 18px
+@media (max-width: 1450px)
+    .about
+        .opening
+            left: 0 
+        .closing
+            right: 0
+            bottom: -150px
+@media (max-width: 700px)
+    .about
+        padding-left: 20px
+        padding-right: 20px
+        .opening
+            display: none
+        .closing
+            display: none

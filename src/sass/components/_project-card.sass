@@ -53,3 +53,24 @@
         right: -100px
     .left 
         left: -100px
+@media ( max-width: 1200px  )
+    .project-card
+        flex-direction: column
+        &_image
+            height: 400px
+        &_content
+            position: relative
+            bottom: unset
+            margin: auto
+            top: -30px
+        .right
+            right: unset
+        .left 
+            left: unset
+@media (max-width: 800px)
+    .project-card
+        &_content
+            &__links
+                flex-direction: column
+                a
+                    width: 100%
