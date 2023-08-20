@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea7e8019.css",
+    "main.js": "/static/js/main.09235c94.js",
+    "static/media/topography.svg": "/static/media/topography.0c1a9f7468e1be4731a0.svg",
+    "static/media/circuit-board.svg": "/static/media/circuit-board.697a2a6a0e98e679d69c.svg",
+    "index.html": "/index.html",
+    "main.ea7e8019.css.map": "/static/css/main.ea7e8019.css.map",
+    "main.09235c94.js.map": "/static/js/main.09235c94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea7e8019.css",
+    "static/js/main.09235c94.js"
+  ]
+}
