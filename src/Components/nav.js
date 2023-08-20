@@ -13,8 +13,10 @@ const Nav = () => {
 				<div className="nav_links desktop">
 					<a href="#projects">Projects</a>
 					<a href="#about">About Me</a>
-					<a href="#projects">GitHub</a>
-					<a href="#about">LinkedIn</a>
+					<a href="https://github.com/KentenRoth">GitHub</a>
+					<a href="https://www.linkedin.com/in/kentenroth/">
+						LinkedIn
+					</a>
 				</div>
 				<div className="nav-toggle mobile" onClick={toggleMenu}>
 					<div className={`hamburger ${menuOpen ? 'open' : ''}`}>
@@ -29,8 +31,10 @@ const Nav = () => {
 				>
 					<a href="#projects">Projects</a>
 					<a href="#about">About Me</a>
-					<a href="#projects">GitHub</a>
-					<a href="#about">LinkedIn</a>
+					<a href="https://github.com/KentenRoth">GitHub</a>
+					<a href="https://www.linkedin.com/in/kentenroth/">
+						LinkedIn
+					</a>
 				</div>
 			</nav>
 		</>
