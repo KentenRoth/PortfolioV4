@@ -4,16 +4,6 @@
     padding-top: 183px
     padding-bottom: 200px
     padding: 183px 80px 200px 80px
-    &::after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        height: 100%
-        background-image: url('../../img/topography.svg')
-        z-index: 1
-        opacity: .15
     &_content
         position: relative
         max-width: 1000px
@@ -73,8 +63,7 @@
             bottom: -150px
 @media (max-width: 700px)
     .about
-        padding-left: 20px
-        padding-right: 20px
+        padding: 75px 20px
         .opening
             display: none
         .closing

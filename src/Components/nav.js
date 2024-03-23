@@ -13,12 +13,17 @@ const Nav = () => {
 				<div className="nav_links desktop">
 					<a href="#projects">Projects</a>
 					<a href="#about">About Me</a>
-					<a target="_blank" href="https://github.com/KentenRoth">
+					<a
+						target="_blank"
+						href="https://github.com/KentenRoth"
+						rel="noreferrer"
+					>
 						GitHub
 					</a>
 					<a
 						target="_blank"
 						href="https://www.linkedin.com/in/kentenroth/"
+						rel="noreferrer"
 					>
 						LinkedIn
 					</a>
@@ -36,11 +41,16 @@ const Nav = () => {
 				>
 					<a href="#projects">Projects</a>
 					<a href="#about">About Me</a>
-					<a target="_blank" href="https://github.com/KentenRoth">
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/KentenRoth"
+					>
 						GitHub
 					</a>
 					<a
 						target="_blank"
+						rel="noreferrer"
 						href="https://www.linkedin.com/in/kentenroth/"
 					>
 						LinkedIn

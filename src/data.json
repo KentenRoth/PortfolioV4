@@ -2,7 +2,7 @@
 	"projects": [
 		{
 			"title": "Tire Chains R Us",
-			"copy": "As the front-end developer for a work project, I skillfully translated a provided design into a fully functional website.  I achieved this by utilizing a custom WordPress theme in conjunction with WooCommerce. By implementing the design into the development process, I ensured a visually appealing and user-friendly interface that seamlessly guides visitors through the product offerings. ",
+			"copy": "As the lead front-end developer for this project, I skillfully translated a provided design into a fully functional website.  I achieved this by utilizing a custom WordPress theme in conjunction with WooCommerce. By implementing the design into the development process, I ensured a visually appealing and user-friendly interface that seamlessly guides visitors through the product offerings. ",
 			"img": "tirechains.webp",
 			"type": "Work",
 			"links": [
@@ -35,6 +35,31 @@
 		},
 		{
 			"title": "Huddle Site",
+			"copy": "This website materialized as a response to a compelling challenge presented within the context of a Udemy course. The initiative involved a comprehensive provision of assets, hand in hand with a meticulously curated design blueprint. The crux of this challenge lay in the faithful realization of the site in accordance with the precise specifications of the 'client', all within the constraints of a tightly delimited time frame.",
+			"img": "huddle.webp",
+			"type": "Personal",
+			"links": [
+				{
+					"Github": "https://github.com/KentenRoth/challenge-site"
+				},
+				{
+					"Live Site": "https://vigilant-hamilton-01427e.netlify.app/"
+				}
+			]
+		},
+		{
+			"title": "ATV Tires",
+			"copy": "I served as the front-end developer for this work project involving the creation of a custom WordPress theme integrated with WooCommerce. Tasked with bringing the provided design to life, I implemented the design elements to craft a visually striking and functional website. By seamlessly combining the power of WooCommerce with the custom theme, I ensured a seamless and intuitive e-commerce experience for users.",
+			"img": "atvtires.webp",
+			"type": "Work",
+			"links": [
+				{
+					"Live Site": "https://www.atvtires.com/"
+				}
+			]
+		},
+		{
+			"title": "Huddle Site2",
 			"copy": "This website materialized as a response to a compelling challenge presented within the context of a Udemy course. The initiative involved a comprehensive provision of assets, hand in hand with a meticulously curated design blueprint. The crux of this challenge lay in the faithful realization of the site in accordance with the precise specifications of the 'client', all within the constraints of a tightly delimited time frame.",
 			"img": "huddle.webp",
 			"type": "Personal",

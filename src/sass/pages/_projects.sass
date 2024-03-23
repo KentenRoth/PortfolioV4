@@ -1,32 +1,32 @@
 .projects
-    max-width: 100%
+    display: flex
+    flex-direction: column
+    gap: 65px
+    max-width: 1680px
+    margin: auto
     position: relative
-    background: $dark-gray
-    padding-left: 120px
-    padding-right: 120px
-    &::after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        height: 100%
-        background-image: url('../../img/circuit-board.svg')
-        z-index: 1
-        opacity: .15
-    &_list
-        max-width: 1400px
-        margin: auto
+    z-index: 2
+    width: 100%
+    .project_group
         display: flex
-        flex-direction: column
-        gap: 200px
-        margin-bottom: 100px
-@media ( max-width: 1200px  )
-    .projects
-        &_list
-            gap: 50px
+        gap: 30px
+        padding: 0 40px
+        @media (max-width: 900px)
+            padding: 0 20px
+        &__list
+            flex-basis: 50%
+            width: 100%
+            display: flex
+            flex-direction: column
+            gap: 20px
+            justify-content: space-between
+    .left
+        flex-direction: row-reverse
 
-@media  ( max-width: 1000px )
+@media (max-width: 900px)
     .projects
-        padding-left: 20px
-        padding-right: 20px
+        gap: 20px
+        .left
+            flex-direction: row
+        .project_group__list
+            flex-basis: 100%

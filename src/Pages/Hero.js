@@ -1,3 +1,5 @@
+import Scroll from '../Components/scroll';
+
 const Hero = () => {
 	return (
 		<>
@@ -8,9 +10,13 @@ const Hero = () => {
 					<div className="name">
 						<h1 className="section_title">Kenten</h1>
 						<h1 className=" section_title hero_lastname">Roth</h1>
+						<p className="details">
+							React | TypeScript | JavaScript | NodeJS | MongoDB
+						</p>
 					</div>
 					<p class="closing">{'}'}</p>
 				</div>
+				<Scroll />
 			</section>
 		</>
 	);

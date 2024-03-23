@@ -5,17 +5,9 @@
     display: flex
     justify-content: center
     align-items: center
-    min-height: 60vh
-    &::after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        height: 100%
-        background-image: url('../../img/topography.svg')
-        z-index: 1
-        opacity: .15
+    min-height: 100vh
+    padding-top: 0
+    padding-bottom: 0
     .hero_card
         position: relative
         display: inline-flex
@@ -56,6 +48,9 @@
                 line-height: .8
             .hero_lastname
                 padding-left: 35px
+        .details
+            color: $light-gray
+            font-size: 20px
 @media (max-width: 800px)
     .hero
         .hero_card

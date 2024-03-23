@@ -1,0 +1,83 @@
+.project_group__shown
+    flex-basis: 60%
+    width: 100%
+    border: 2px solid $accent-purple
+    background: $dark-gray
+    &-img
+        max-height: 200px
+        width: 100%
+        overflow: hidden
+        img
+            height: 100%
+            width: 100%
+            object-fit: cover
+    &-copy
+        padding: 30px 25px
+        color: white
+        h2
+            margin: 0
+            font-size: 35px
+            color: $accent-purple
+        p
+            font-size: 18px
+        &_links
+            display: flex
+            justify-content: space-between
+            align-items: center
+            height: fit-content
+            gap: 30px
+            a
+                justify-content: center
+                align-items: center
+                display: flex
+                flex-basis: 45%
+                border: solid 1px $accent-purple
+                color: white
+                text-decoration: none
+                padding: 10px 20px
+                border-radius: 100px
+                transition: 300ms ease-in-out
+                font-weight: bold
+                font-size: 18px
+                &:hover
+                    transition: 300ms ease-in-out
+                    background: $accent-purple
+                    color: $dark-gray
+    &_mobile
+        display: none
+@media (max-width: 900px)
+    .project_group__shown
+        position: absolute
+        right: -105%
+        top: 0
+        height: 100%
+        width: calc(100% - 40px)
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        transition: 300ms ease-in-out
+        &-img
+            height: 100%
+            max-height: 400px
+        &_mobile
+            display: flex
+            position: absolute
+            right: 20px
+            top: 20px
+            font-size: 30px
+            border-radius: 50px
+            backdrop-filter: blur(1rem)
+            height: 40px 
+            width: 40px
+            justify-content: center
+            align-items: center
+            background: rgba(0, 0, 0, 0.1)
+            cursor: pointer
+            p
+                margin: 0
+                position: relative
+                color: $accent-purple
+                font-size: 20px
+    .project_group__shown.show
+        right: 20px
+        transition: 300ms ease-in-out
